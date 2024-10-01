@@ -1,0 +1,99 @@
+/* Color */
+.color {
+    color: rgb(161, 114, 114);   /* Using rgb value*/
+
+    color :red ; /* Using color Name*/
+
+    color: #ff0000; /* Using hexsdecimal color  */
+}
+
+
+             /* BackgroundColor */
+.bgcolor {
+         background-color: gray;
+}
+
+
+            /* Border */
+
+.border {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}       
+
+            /* Border */
+            
+.Border {
+    background-color: black;
+    border-width: 10px;
+    border-style: double;
+    border-color: #ff0000;
+ }               
+
+             /* Multiple Border  Apply*/
+.multi{
+    border-top: 2px solid red;
+    border-right: 5px dashed blue;
+    border-bottom: 7px dotted green;
+    border-left: 10px double yellow;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+
+             /* Border radius*/
+
+.radius {
+    color : white;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border : 2px solid blue;
+    border-radius: 20px;
+    display: flex;  
+    align-items: center;
+}
+.dotted{
+    border-style: dotted;
+    color: chocolate;
+    background-color:chartreuse;
+}
+.dashed{
+    border-style: dashed;
+    color: chartreuse;
+    background-color: chocolate;
+}
+.solid{
+    border-style: solid;
+    color: brown;
+    background-color: burlywood;
+}
+.double{
+    border-style: double;
+    color: burlywood;
+    background-color: brown;
+}
+.groove{
+    border-style: groove;
+    color: red;
+    background-color: aquamarine;
+}
+.ridge{
+    border-style: ridge;
+    color: blue;
+    background-color: aqua;
+}
+.inset{
+    border-style: inset;
+}
+.outset{
+    border-style: outset;
+}
+.none{
+    border-style: none;
+}
+.hidden{
+    border-style: hidden;
+}

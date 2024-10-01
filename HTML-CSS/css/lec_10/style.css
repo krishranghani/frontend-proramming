@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 15px;
+    font-size: large;
+}
+.box1{
+    background-color: #fecccb;
+    grid-column: 1/4;
+}
+.box2{
+    grid-row: 2/4;
+    background-color: #b3ffff;
+}
+.box3{
+    grid-column: 2/4;
+    background-color: #d9b3ff;
+}
+.box4{
+    background-color: #c2ffb2;
+}
+.box5{
+    background-color: #b3d2ff;
+}
+.box6{
+    background-color: blue;
+    grid-column: 1/4;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-red-200">
+    <button class="bg-white-500 font-sans hover:font-mono hover:bg-red-700 text-white font-bold py-2 px-4 my-3 mx-3 rounded-xl hover:animate-bounce"> click me fast </button>
+    <button class="bg-white-500 font-serif hover:font-sans hover:bg-green-700 text-white font-bold py-2 px-4 my-3 mx-3 rounded-xl hover:animate-spin"> click me fast </button>
+    <button class="bg-white-500 font-mono hover:font-serif hover:bg-blue-700 text-white font-bold py-2 px-4 my-3 mx-3 rounded-xl hover:animate-bounce"> click me fast </button>
+</body>
+</html>

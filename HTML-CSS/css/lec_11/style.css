@@ -1,0 +1,26 @@
+/* .opacity{
+    display: flex;
+}
+
+.opacity img{
+    height: 250px;
+    width: 250px;
+}
+
+.opacity_1{
+     opacity: 1;
+}
+
+.opacity_1_5{
+    opacity: 0.5;
+}
+
+.opacity_0{
+    opacity: 0;
+    opacity: 0.1;
+} */
+.h1 {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    /* background-color: aqua; */
+    border: 2px solid rgb(0, 255, 247);
+    margin: 100px;
+    /* height: 320px;  */
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    row-gap: 20px;
+}
+
+.a {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    /* position: fixed; */
+
+    /* position: relative;
+    top:10px;
+    left:10px */
+
+    /* position: sticky;
+    top: 100px; */
+
+    /* position: absolute;
+    top: 1000px;   */
+
+    position: static;
+    border: 2px solid black;
+
+}
+
+.b {
+    height: 100px;
+    width: 100px;   
+    background-color: rgb(0, 148, 20);
+    position: static;
+    border: 2px solid black;
+}
+
+.c {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    position: static;    
+    border: 2px solid black;
+
+}
+.d {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    position: static;
+    border: 2px solid black;
+
+}
+
+.e {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+
+}
+.f {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 148, 20);
+    position: relative;
+    top:10px;
+    left:10px;
+    border: 2px solid black;
+
+}
+.g {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+}
+.h {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+}
+
+
+.i {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+}
+.j {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 148, 20);
+    position: absolute;
+    top: 370px;
+    left:130px;
+    border: 2px solid black;
+}
+.k {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+}
+.l {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+
+}

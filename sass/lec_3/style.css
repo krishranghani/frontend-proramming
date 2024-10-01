@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ff0000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  margin: 0 1rem;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header nav ul li a i {
+  font-size: 1.25rem;
+}
+
+main .hero {
+  background: url("../asset/download (1).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .hero .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 8px;
+}
+main .hero .overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+main .hero .overlay h1 .highlight {
+  display: block;
+}
+main .hero .overlay h1 .design {
+  color: #4a00ff;
+}
+main .hero .overlay p {
+  margin-bottom: 1.5rem;
+}
+main .hero .overlay .read-more {
+  background: #ff0000;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+footer {
+  background: #f8f8f8;
+  padding: 2rem 0;
+  text-align: center;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer .footer-content h2 {
+  margin-bottom: 1rem;
+}
+footer .footer-content .ecommerce {
+  max-width: 200px;
+}
+footer .footer-content .ecommerce .social-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+footer .footer-content .ecommerce .social-icons a {
+  color: #000;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+footer .footer-content .support ul, footer .footer-content .company ul, footer .footer-content .shop ul {
+  list-style: none;
+  padding: 0;
+}
+footer .footer-content .support ul li, footer .footer-content .company ul li, footer .footer-content .shop ul li {
+  margin-bottom: 0.5rem;
+}
+footer .footer-content .support ul li a, footer .footer-content .company ul li a, footer .footer-content .shop ul li a {
+  color: #000;
+  text-decoration: none;
+}
+footer .footer-content .payments i {
+  font-size: 2rem;
+  margin: 0 0.5rem;
+  color: #000;
+}
+footer .copyright {
+  margin-top: 2rem;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mask {
+    position: relative;
+    display: inline-block;
+}
+
+.mask img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* -webkit-mask-image: url(./image/images.png); */
+    mask-image: url(./image/image.png); 
+    /* -webkit-mask-repeat: no-repeat;  */
+    mask-repeat: no-repeat;
+}

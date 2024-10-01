@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px 2px red;    
+}
+h1{
+    /* --->text properties<--- */
+    text-align: center;
+    /* text-align: justify; */
+    /* text-align: end; */
+    /* text-align: start; */
+
+    /* --->text-decoration-line<--- */
+    /* text-decoration-line: underline; */
+    /* text-decoration-line: line-through; */
+    /* text-decoration-line: overline; */
+    /* text-decoration-line: none; */
+    text-decoration-color:blue;
+    
+    /* --->text-shadow<--- */
+    text-shadow: 5px 5px 5px  blue ;
+
+    /* word spacing */
+    word-spacing: 20px;
+}

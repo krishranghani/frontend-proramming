@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:hover {
+    background-color: brown;
+    color: blueviolet;
+}
+
+a:visited {
+    background-color: blue;
+    color: chartreuse;
+}
+
+a:active {
+    background-color: aquamarine;
+    color: blue;
+}
+
+:root {
+    /* color: red; */
+}
+
+p:first-child {
+    /* color: red;
+    background-color: blue; */
+}
+
+p:last-child {
+    /* color: red;
+    background-color: blue; */
+}
+
+p:nth-child(3) {
+    /* color: red;
+    background-color: blue; */
+}
+
+p:nth-child(2n) {
+    /* color: red;
+    background-color: blue; */
+}
+
+p:nth-child(2n+1) {
+    /* color: red;
+    background-color: blue; */
+}
+
+p:nth-child(odd){
+    /* color: red;
+background-color: blue; */
+}
+
+p:nth-child(even){
+    color: red;
+background-color: blue;
+}
+
+::selection{
+    color: black;
+    background-color: red;
+}
+
+p::first-line{
+    color: rgb(0, 255, 51);
+}
+
+p::first-letter{
+    color: palevioletred;
+}
+
+p::before{
+    content: "||";
+}
+
+p::after{
+    content: "||";
+}
+
+p::marker{
+    color: red;
+    font-size: 50px;
+}
